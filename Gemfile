@@ -34,3 +34,7 @@ group :test do
   gem "berkshelf-api"
   gem "reel"
 end
+
+gem 'ridley',
+    git: 'https://github.com/mes/ridley.git',
+    branch: 'update-faraday'
